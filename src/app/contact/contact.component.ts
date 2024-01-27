@@ -4,9 +4,9 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-contact',
   template: `
     <main>
-      <p>
-        contact works!
-      </p>
+      <h2>
+        Kontakt
+      </h2>
     </main>
   `,
   standalone: true,

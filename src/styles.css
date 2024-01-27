@@ -1,11 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  background: slategrey url("assets/images/poz.png") no-repeat fixed center center;
+  background: slategrey url("assets/images/pozadie.jpg") no-repeat fixed center center;
   color: aliceblue;
   font-family: "system-ui";
+  margin: 0;
+  padding: 0;
 }
 
 main {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.clearer {
+  clear: both;
+}
+h2 {
+  display: flex;
+  height: 100vh;
+  font-size: 5em;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
