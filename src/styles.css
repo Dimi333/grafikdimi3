@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background: slategrey url("assets/images/poz.png") no-repeat fixed center center;
+  color: aliceblue;
+  font-family: "system-ui";
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
