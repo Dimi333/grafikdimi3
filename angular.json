@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "grafikdimi3:build:production"
+              "buildTarget": "grafikdimi3:build:production"
             },
             "development": {
-              "browserTarget": "grafikdimi3:build:development"
+              "buildTarget": "grafikdimi3:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "grafikdimi3:build"
+            "buildTarget": "grafikdimi3:build"
           }
         },
         "test": {
