@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-links',
@@ -20,12 +20,12 @@ import { Component, OnInit } from '@angular/core';
       </p>
     </main>
   `,
-  styles: [
-  ]
+  styles: []
 })
 export class LinksComponent implements OnInit {
 
-  public constructor() { }
+  public constructor() {
+  }
 
   public ngOnInit(): void {
   }

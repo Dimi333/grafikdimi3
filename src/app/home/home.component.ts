@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {NgOptimizedImage} from "@angular/common";
 
 @Component({
@@ -18,7 +18,8 @@ import {NgOptimizedImage} from "@angular/common";
 })
 export class HomeComponent implements OnInit {
 
-  public constructor() { }
+  public constructor() {
+  }
 
   public ngOnInit(): void {
   }

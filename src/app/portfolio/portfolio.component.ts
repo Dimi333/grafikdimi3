@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {NgOptimizedImage} from "@angular/common";
 
 @Component({
@@ -14,7 +14,7 @@ import {NgOptimizedImage} from "@angular/common";
                class="articlefigure">
         </figure>
         <p>Koncept prehliadačovej hry</p>
-        <br class="clearer" />
+        <br class="clearer"/>
       </article>
 
       <article>
@@ -27,7 +27,7 @@ import {NgOptimizedImage} from "@angular/common";
           databázou
           na
           backende.</p>
-        <br class="clearer" />
+        <br class="clearer"/>
       </article>
 
       <article>
@@ -36,7 +36,7 @@ import {NgOptimizedImage} from "@angular/common";
           <img ngSrc="./../../assets/images/tart.jpg" alt="FutbalHub" height="460" width="550" class="articlefigure">
         </figure>
         <p>2D plošinovka v JavaScripte. Tartaria. Vytvorená za pomoci technológie Phaser.js v2.</p>
-        <br class="clearer" />
+        <br class="clearer"/>
       </article>
 
       <article>
@@ -48,7 +48,7 @@ import {NgOptimizedImage} from "@angular/common";
         <p>Webový editor pre tvorbu responzívnych html e-mailov. Pre spoločnosť ELET. Postavená na Angular a integrovaná
           do
           firemného ekosystému.</p>
-        <br class="clearer" />
+        <br class="clearer"/>
       </article>
 
       <article>
@@ -59,7 +59,7 @@ import {NgOptimizedImage} from "@angular/common";
         <p>Webová hra s tarotovými kartami Karty osudu. Jednoduché HTML, CSS (hlavne animácie) a trocha Javascriptu.
           Plus
           ľúbivý grafický design.</p>
-        <br class="clearer" />
+        <br class="clearer"/>
       </article>
 
       <article>
@@ -70,7 +70,7 @@ import {NgOptimizedImage} from "@angular/common";
         <p>Webová fantasy hra. V spolupráci s Ján Repáň. Postavená na technológii angular, PHP a sqlite na backende. Hra
           nieje dokončená s dôvodu privysokých nárokov na čas. (Keďže sa jedná o hobby projekt). Možno v budúcnosti sa k
           tomu vrátim, ak niekto nájde čarovný stroj, ktorý preklopí AngularJS appku do Angular.</p>
-        <br class="clearer" />
+        <br class="clearer"/>
       </article>
 
       <article>
@@ -79,7 +79,7 @@ import {NgOptimizedImage} from "@angular/common";
           <img ngSrc="./../../assets/images/trkartapro.jpg" alt="TR Karta Pro" height="460" width="550">
         </figure>
         <p>Mobilná aplikácia pre Edenred.</p>
-        <br class="clearer" />
+        <br class="clearer"/>
       </article>
     </main>
   `,
@@ -112,7 +112,8 @@ import {NgOptimizedImage} from "@angular/common";
 })
 export class PortfolioComponent implements OnInit {
 
-  public constructor() { }
+  public constructor() {
+  }
 
   public ngOnInit(): void {
   }

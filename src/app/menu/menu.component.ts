@@ -1,16 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {RouterLinkActive, RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-menu',
   template: `
     <menu>
-        <a routerLink="/" routerLinkActive="active" href="#">Domov</a>
-        <a routerLink="/work" routerLinkActive="active" href="#">PRÁCE</a>
-        <a routerLink="/about" routerLinkActive="active" href="#">O MNE</a>
-        <a routerLink="/links" routerLinkActive="active" href="#"> ODKAZY</a>
-        <a routerLink="/contact" routerLinkActive="active" href="#"> KONTAKT:</a>
-        <p>DIMI3(ZAVINÁČ)GRAFIKDIMI3.SK</p>
+      <a routerLink="/" routerLinkActive="active" href="#">Domov</a>
+      <a routerLink="/work" routerLinkActive="active" href="#">PRÁCE</a>
+      <a routerLink="/about" routerLinkActive="active" href="#">O MNE</a>
+      <a routerLink="/links" routerLinkActive="active" href="#"> ODKAZY</a>
+      <a routerLink="/contact" routerLinkActive="active" href="#"> KONTAKT:</a>
+      <p>DIMI3(ZAVINÁČ)GRAFIKDIMI3.SK</p>
     </menu>
   `,
   standalone: true,
@@ -30,7 +30,8 @@ import {RouterLinkActive, RouterLink} from "@angular/router";
 })
 export class MenuComponent implements OnInit {
 
-  public constructor() { }
+  public constructor() {
+  }
 
   public ngOnInit(): void {
   }

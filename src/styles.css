@@ -15,6 +15,7 @@ main {
 .clearer {
   clear: both;
 }
+
 h2 {
   display: flex;
   height: 100vh;
