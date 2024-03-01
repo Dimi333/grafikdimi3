@@ -112,8 +112,8 @@ import {NgOptimizedImage} from "@angular/common";
 })
 export class PortfolioComponent implements OnInit {
 
-  constructor() { }
+  public constructor() { }
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
   }
 }

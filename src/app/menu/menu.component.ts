@@ -30,9 +30,9 @@ import {RouterLinkActive, RouterLinkWithHref} from "@angular/router";
 })
 export class MenuComponent implements OnInit {
 
-  constructor() { }
+  public constructor() { }
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
   }
 
 }

@@ -21,5 +21,5 @@ import {MenuComponent} from "./menu/menu.component";
   styles: []
 })
 export class AppComponent {
-  title = 'grafikdimi3';
+  public title = 'grafikdimi3';
 }
