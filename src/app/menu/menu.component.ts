@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {RouterLinkActive, RouterLinkWithHref} from "@angular/router";
+import {RouterLinkActive, RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-menu',
@@ -15,7 +15,7 @@ import {RouterLinkActive, RouterLinkWithHref} from "@angular/router";
   `,
   standalone: true,
   imports: [
-    RouterLinkWithHref,
+    RouterLink,
     RouterLinkActive
   ],
   styles: [`

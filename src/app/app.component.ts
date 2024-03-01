@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {RouterLink, RouterLinkActive, RouterLinkWithHref, RouterOutlet} from "@angular/router";
+import { RouterLink, RouterLinkActive, RouterOutlet } from "@angular/router";
 import {NgOptimizedImage} from "@angular/common";
 import {MenuComponent} from "./menu/menu.component";
 
@@ -14,7 +14,7 @@ import {MenuComponent} from "./menu/menu.component";
     RouterOutlet,
     RouterLink,
     RouterLinkActive,
-    RouterLinkWithHref,
+    RouterLink,
     NgOptimizedImage,
     MenuComponent,
   ],
