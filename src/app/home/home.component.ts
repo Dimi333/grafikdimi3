@@ -7,7 +7,7 @@ import {NgOptimizedImage} from "@angular/common";
   template: `
     <main>
       <h2>
-        <img ngSrc="../../assets/images/gd3logo.png" alt="Grafik dimi3" height="450" width="540">
+        <img ngSrc="../../assets/images/gd3logo.png" priority alt="Grafik dimi3" height="450" width="540">
       </h2>
     </main>
   `,
